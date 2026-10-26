@@ -58,6 +58,13 @@
   font-weight: 650;
 }
 
+.post-content {
+  margin: 0;
+  color: #8d829c;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 .fruit-price {
   color: #6436a3;
   font-size: 16px;

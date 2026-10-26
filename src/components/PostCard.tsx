@@ -8,7 +8,10 @@ export function PostCard({ post }: PostCardProps) {
     return (
         <li className="fruit-item">
             <span className="fruit-name">{post.name}</span>
-            <span className="fruit-price">{post.price} ₴ <small>/ кг</small></span>
+            <p className="post-content">{post.content}</p>
+            <span className="fruit-price">
+                {post.category?.name || "Без категорії"}
+            </span>
         </li>
     );
 }
