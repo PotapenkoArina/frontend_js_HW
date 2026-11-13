@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { Header } from "./components/Header";
 import { PostList } from "./components/PostList";
+import { AuthForm } from "./components/AuthForm";
 import { fetchPosts } from "./api/posts";
 import type { Post } from "./types/post";
 
@@ -36,6 +37,7 @@ function App() {
   return (
     <div className="app">
       <Header title="Публікації" />
+      <AuthForm />
 
       <main className="products-section">
         <h2>Останні дописи</h2>
